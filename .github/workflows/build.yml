@@ -33,13 +33,13 @@ jobs:
         arguments: build
 
     - name: Upload WorldGuard Bukkit artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: WorldGuard-Bukkit
         path: worldguard-bukkit/build/libs/worldguard-bukkit-*-dist.jar
 
     - name: Upload WorldGuard Core artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: WorldGuard-Core
         path: worldguard-core/build/libs/worldguard-core-*.jar
